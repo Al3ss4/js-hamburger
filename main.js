@@ -9,3 +9,14 @@ const openHamburgerMenu = document.querySelector(".fas");
 const closeHamburgerMenu = document.querySelector(".close");
 
 
+//open hamburger menu
+openHamburgerMenu.addEventListener('click', function() {
+    hamburgerMenu.classList.add('active');
+    }
+);
+
+//close hamburger menu
+closeHamburgerMenu.addEventListener('click', function() {
+    hamburgerMenu.classList.remove('active');
+    }
+);
